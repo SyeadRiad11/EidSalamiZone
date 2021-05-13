@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ 
+    width: 100%;
+
+
+}
+.head{
+    height: 130px;
+    width: 100%;
+    background-color: rgb(93, 41, 128);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.head h1{
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    padding: 0 10px ;
+    font-size: 25px;
+  
+}
+
+.head h1 span{
+    color: rgb(255, 251, 7);
+ 
+    font-size: 40px;
+ 
+    
+  
+}
+
+.container h2 {
+
+margin-top: 30px;
+text-align: center;
+font-family: monospace;
+font-size: 40px;
+
+
+}
+
+.container p{
+    text-align: center;
+   
+    color: black;
+    font-weight: 600px;
+    width: 90%;
+    margin: 30px auto;
+}
+
+.container p #give{
+color: green;
+}
+.container p #take{
+color: red;
+}
+
+.button{
+    width: 90%;
+ 
+    margin: 30px auto;
+    margin-top: 90px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+.button1{
+    background-color: red;
+    padding: 12px 12px;
+    color: white;
+    border-radius: 6px;
+cursor: pointer;
+}
+
+
+.button2{
+    background-color: green;
+    padding: 12px 12px;
+    color: white;
+    border-radius: 6px;
+cursor: pointer;
+}
+
+.click{
+    text-align: center;
+    font-size: 18px;
+    width: 80%;
+    margin: 5px auto;
+    padding: 10px;
+    color: white;
+    border-radius:7px  ;
+
+}

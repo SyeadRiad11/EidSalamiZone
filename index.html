@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Eid Salami Zone</title>
+</head>
+<body>
+    <div class="head">
+        <h1><span>EID MUBARAK</span> <br> Have a Beautiful Eid with your family, relative and friends.</h1>
+    </div>
+
+
+
+
+<div class="container">
+<h2>The Salami Zone</h2>
+
+<p>
+    সালামি <span id="give" >দিন</span> । সালামি <span id="take">নিন</span> । ঈদে সালামি বিনিময় বড় এবং ছোটদের মধ্যে ভালোবাসাকে বৃদ্ধি করে। তো আসুন, আমরা সালামি গ্রহন ও প্রদানের মাধ্যমে নিজের মধ্যে ভালবাসা বহুগুনে বৃদ্ধি করি।
+</p>
+
+</div>
+
+<div class="button">
+    <div onclick="buttonOne()" class="button1">
+        সালামি নিতে চাই।
+    </div>
+
+    <div onclick="buttonTwo()" class="button2">
+        সালামি দিতে চাই। 
+    </div>
+     
+</div>
+
+<div class="click">
+  
+</div>
+
+
+
+
+
+
+<script>
+  var  button1 = document.querySelector(".button1");
+
+ var   button2 = document.querySelector(".button2");
+
+  var  click = document.querySelector(".click")
+
+
+
+
+
+ function buttonOne(){
+    click.innerHTML = "দেখো বাবা, দেশের অবস্থা তো জানোই। এই অবস্থায় কার হাতে টাকা আছে বলো? আমিও তো এই করোনা পরিস্থিতির শিকার। শোনো বাবা, সালামি মুখ্য বিষয় না। ভালোবাসাটাই বড়। তোমার জন্য দোয়া আর ভালোবাসা রইল।"
+
+    click.style.display="block";
+    click.style.backgroundColor="red";
+ }
+ 
+
+
+ function buttonTwo(){
+    click.innerHTML = "জ্বী। ভালোবাসা বৃদ্ধিতে সালামির ভূমিকা অপরিসীম। এখন ঘরে বসেই বিকাশ, রকেটের মাধ্যমে সালামি পাঠাতে পারবেন খুব সহজেই। তাই আর দেরি না করে সালামি মোবাইলের সেন্ড মানি অপশনের সদ্ব্যবহার করে হাসিল করুন অশেষ নেকী। "
+
+    click.style.display="block";
+    click.style.backgroundColor="green";
+ }
+
+
+
+
+</script>
+
+
+</body>
+</html>
